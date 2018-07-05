@@ -17,7 +17,8 @@ public class NewTest {
 		  driver.manage().window().maximize();
 		  driver.get("http://www.toyota.com/contact-a-dealer/");
 		  org.testng.Assert.fail("you wandered onto the wrong path");
-	
+		  
+		  System.out.println("Inside F Method");
 	}
 	 
 	@Test
